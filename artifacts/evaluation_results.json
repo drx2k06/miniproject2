@@ -1,0 +1,82 @@
+[
+  {
+    "model_name": "Logistic Regression",
+    "accuracy": 0.9568,
+    "precision": 0.9462,
+    "recall": 0.9565,
+    "f1_score": 0.9514,
+    "roc_auc": 0.9946,
+    "brier_score": 0.0302,
+    "log_loss": 0.101,
+    "confusion_matrix": [
+      [
+        334,
+        15
+      ],
+      [
+        12,
+        264
+      ]
+    ]
+  },
+  {
+    "model_name": "Random Forest",
+    "accuracy": 0.9584,
+    "precision": 0.934,
+    "recall": 0.9746,
+    "f1_score": 0.9539,
+    "roc_auc": 0.9932,
+    "brier_score": 0.0376,
+    "log_loss": 0.1576,
+    "confusion_matrix": [
+      [
+        330,
+        19
+      ],
+      [
+        7,
+        269
+      ]
+    ]
+  },
+  {
+    "model_name": "Gradient Boosting",
+    "accuracy": 0.9712,
+    "precision": 0.9542,
+    "recall": 0.9819,
+    "f1_score": 0.9679,
+    "roc_auc": 0.9971,
+    "brier_score": 0.0218,
+    "log_loss": 0.0816,
+    "confusion_matrix": [
+      [
+        336,
+        13
+      ],
+      [
+        5,
+        271
+      ]
+    ]
+  },
+  {
+    "model_name": "Baseline 2D (CIBIL+Loan)",
+    "accuracy": 0.7136,
+    "precision": 0.659,
+    "recall": 0.7283,
+    "f1_score": 0.6919,
+    "roc_auc": 0.8054,
+    "brier_score": 0.1774,
+    "log_loss": 0.525,
+    "confusion_matrix": [
+      [
+        245,
+        104
+      ],
+      [
+        75,
+        201
+      ]
+    ]
+  }
+]

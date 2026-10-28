@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large datasets and temporary outputs
+*.log
+*.tmp
+data/*.csv
+!data/sample_applicants.csv
+artifacts/*.joblib
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit
+.streamlit/

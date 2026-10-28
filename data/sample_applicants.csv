@@ -1,0 +1,6 @@
+applicant_id,age,cibil_score,monthly_income,loan_amount,loan_tenure_months,existing_monthly_emis,interest_rate_annual,employment_type,loan_purpose
+APP-001,34,780,120000,500000,36,15000,10.5,Salaried,Personal
+APP-002,28,620,45000,800000,24,12000,13.5,Self-Employed,Personal
+APP-003,42,810,180000,3500000,180,25000,9.0,Salaried,Home
+APP-004,50,490,65000,200000,12,5000,16.0,Business,Personal
+APP-005,31,730,90000,1200000,60,18000,11.0,Salaried,Auto
